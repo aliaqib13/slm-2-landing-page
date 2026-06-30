@@ -17,9 +17,26 @@ Open `index.html` in a browser, or run:
 npx serve .
 ```
 
+## Push to GitHub
+
+From this folder, after [GitHub CLI](https://cli.github.com/) login:
+
+```bash
+gh auth login
+gh repo create slm-2-coming-soon --public --source=. --remote=origin --push
+```
+
+If the remote already exists (from a prior setup):
+
+```bash
+git push -u origin main
+```
+
+Repo URL: `https://github.com/aliaqib13/slm-2-coming-soon`
+
 ## Deploy to Vercel
 
-1. Push this repo to GitHub.
+1. Push this repo to GitHub (see above).
 2. In [Vercel](https://vercel.com), click **Add New Project** and import the repo.
 3. Framework Preset: **Other** (static HTML).
 4. Build Command: leave empty.
