@@ -1,4 +1,4 @@
-# SLM-2 Coming Soon
+# slm-landing-page
 
 Static HTML/CSS coming soon page for [https://slm-2.com/](https://slm-2.com/).
 
@@ -32,7 +32,7 @@ If the remote already exists (from a prior setup):
 git push -u origin main
 ```
 
-Repo URL: `https://github.com/aliaqib13/slm-2-coming-soon`
+Repo URL: `https://github.com/aliaqib13/slm-landing-page`
 
 ## Deploy to Vercel
 
